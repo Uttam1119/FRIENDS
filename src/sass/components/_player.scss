@@ -1,0 +1,81 @@
+.video-section {
+  padding: 1rem;
+
+  .video-container {
+    display: flex;
+    padding: 0.3rem;
+    // margin-top: 3rem;
+    background-color: var(--clr-light-gray);
+    background: linear-gradient(
+      to bottom right,
+      rgba(30, 50, 80, 0.9),   /* Deep Navy Blue */
+      rgba(45, 45, 45, 0.9),   /* Charcoal Gray */
+      rgba(220, 220, 220, 0.9) /* Soft Light Gray */
+    );
+
+    border-radius: 10px;
+    width: 100%;
+    max-width: 50rem;
+    margin: auto;
+    // margin-top: 0.3rem;
+    margin-bottom: 2rem;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+    aspect-ratio: 16/9;
+
+    #my-player {
+      height: 100%;
+      width: 100%;
+      margin: .25rem 0.25rem;
+      // margin-top: 1rem;
+      // padding-top: 1 rem;
+      border-radius: 5px;
+      overflow: hidden;
+
+    }
+
+    iframe {
+      border: none;
+    }
+  }
+
+  .video-info {
+    text-align: center;
+    max-width: 50rem;
+    margin: auto;
+
+    hr {
+      border: none;
+      border-bottom: 1px solid var(--clr-primary);
+      margin: 0.3rem;
+    }
+
+    .video-title {
+      font-size: clamp(1.5rem, 3vw, 2rem);
+      font-weight: 700;
+      margin-bottom: 1rem;
+      line-height: 1.2;
+    }
+
+    .video-secondary-title {
+      font-size: 1.2rem;
+      font-weight: 400;
+      margin-top: 1rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .release-date {
+      font-size: 0.9rem;
+      opacity: 0.5;
+      margin-bottom: 1rem;
+      display: inline-block;
+    }
+
+    .video-description {
+      margin-top: 1rem;
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 1.2;
+    }
+  }
+}
+

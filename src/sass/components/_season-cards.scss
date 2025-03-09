@@ -1,0 +1,59 @@
+.season-cards {
+  display: grid;
+  grid-gap: 1rem;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(9rem, auto));
+  gap: 1rem;
+  padding: 1rem;
+
+  &__card {
+    outline: none;
+
+    &:hover,
+    &:active,
+    &:focus {
+      .card-contents {
+        transform: scale(0.97);
+      }
+
+      .title {
+        color: var(--clr-primary);
+      }
+    }
+
+    .card-contents {
+      background-color: var(--clr-light-gray);
+      padding: 0.5rem;
+      transition: transform 0.2s ease;
+      border-radius: 10px;
+      text-align: center;
+      color: var(--clr-white);
+      display: block;
+      box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+
+      .thumbnail {
+        border-radius: 5px;
+        overflow: hidden;
+        margin-bottom: 1rem;
+
+        img {
+          height: 100%;
+          width: 100%;
+          object-fit: cover;
+        }
+      }
+
+      .title {
+        font-weight: 700;
+        font-size: 1.5rem;
+        transition: color 0.2s ease;
+      }
+
+      .release-date {
+        font-size: 0.8rem;
+        opacity: 0.5;
+      }
+    }
+  }
+}
