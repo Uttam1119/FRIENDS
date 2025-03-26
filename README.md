@@ -23,8 +23,6 @@
 <!-- Screenshot -->
 <a align="center" href="https://friends-beta-five.vercel.app/">
 
-![Screenshot](./screenshots/friends-tv-series.jpg)
-
 </a>
 
 Welcome to the Friends TV Series website! This project emerged from a simple desire: to create an ad-free platform for enjoying every episode of the iconic show "Friends." Fed up with ads and pop-ups on other streaming sites, I crafted a clean, user-friendly space for me and fellow fans to enjoy the series uninterrupted.
